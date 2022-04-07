@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.board {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.turn {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.reset {
+  background-color: rgb(156, 236, 236);
+  font-size: large;
+  padding: 10px 20px 10px 20px;
+}
+
+.gameOver {
+  color: red;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
